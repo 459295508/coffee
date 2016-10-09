@@ -1,0 +1,37 @@
+
+
+/*----------------------content--------------------------*/
+#container div div#content{
+    width:940px;
+    /*height:1500px;*/
+    /*border:1px solid red;*/
+    margin-top:40px;
+    background-image: none;
+}
+#content h1{
+    font-size: 36px;
+    color:#32484f;
+    text-align: center;
+}
+#content .article{
+    margin:20px 0;
+    background: none;
+}
+#content .article img{
+    /*display: inline-block;*/
+    margin-left:60px;
+    padding:10px 0;
+}
+#content .article p{
+    color:#32484f;
+    font-size: 24px;
+    text-indent: 2em;
+    padding:0 20px;
+    line-height: 38px;
+
+}
+#content .article p:nth-child(3){
+    display: inline-block;
+}
+
+

@@ -1,0 +1,110 @@
+/*----------------figure-----------------------*/
+#body #figure {
+    padding-top:30px;
+    background: none;
+    position: relative;
+}
+#body #figure span{
+    font-size: 36px;
+    text-shadow:1px 1px;
+    position:absolute;;
+    top:160px;right:60px;
+}
+
+/*-----------------products--------------------*/
+#body #pro{
+    background: none;
+    position: relative;
+}
+#body #pro a.whatshot{
+    /*font-size: 48px;*/
+    text-decoration: none;
+    /*background: url(../images/whats-hot2.jpg) no-repeat left top;*/
+    /*font-family: 'Founder ShuTi';*/
+    font:bolder 48px 'ËÎÌו';
+    color:#E37C34;
+    position:absolute;
+    top:85px;left:40px;
+}
+#body #pro  ul {
+    list-style: none;
+    overflow: hidden;
+}
+#body #pro  ul> li {
+    margin:5px 40px;
+    float: left;
+}
+#body #pro .top ul li:nth-child(1){
+    margin-left:320px;
+}
+#body #pro .top ul li img{
+    transform:scale(1,1);
+    transition:all 0.8s;
+    opacity:1;
+    -ms-transform:scale(1,1);
+    -ms-transition:all 0.8s;
+}
+#body #pro .top ul li:hover {
+    transform:scale(0.8,0.8);
+    opacity:0.6;
+    -ms-transform:scale(0.8,0.8);
+}
+#body #pro  ul li div {
+    background: url(../images/bg-item-title.png) no-repeat center top;
+    height: 57px;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 142px;
+}
+#body #pro ul li div a {
+    color:#843534 ;
+    display: block;
+    font-family: 'UltraRegular';
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    line-height: 16px;
+    padding: 14px 0 0;
+    text-decoration: none;
+}
+#body #pro  ul li div p{
+    color:#E37C34;
+    margin:5px 0;
+}
+#body #pro .top>ul li:nth-child(3) div{
+    margin-top:30px;
+}
+#body #pro .bottom{
+    background:none;
+    position: relative;
+}
+#body #pro .bottom ul{
+    width:940px;
+    height:290px;
+    margin:20px 10px;
+}
+#body #pro .bottom>ul>li{
+    margin:0 2px;
+    float:left;
+}
+#body #pro .bottom>ul>li .large{
+    width:250px;height:240px;
+    z-index:99;
+}
+#body #pro .bottom>ul>li img{
+    padding-right:8px;
+    transform:scale(1,1);
+    transition:all 0.8s;
+    opacity:1;
+    -ms-transform:scale(1,1);
+    -ms-transition:all 0.8s;
+}
+#body #pro .bottom>ul>li:hover {
+    transform:scale(0.8,0.8);
+    opacity:0.6;
+    -ms-transform:scale(0.8,0.8);
+}
+#body #pro .center{
+    opacity: 0.8;
+}

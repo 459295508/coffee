@@ -1,0 +1,64 @@
+/*-----------------news-------------------*/
+#news{
+    width:940px;
+    height:1100px;
+    position: relative;
+    /*border:1px solid #000;*/
+}
+#news .logo img{
+    margin-left:76px;
+    margin-top:26px;
+}
+#news .content{
+    background:none;
+}
+#news .content .top{
+    background:none;
+    width:500px;
+    height:300px;
+    position: absolute;
+    top:40px;left:420px;
+}
+#news .content .left{
+    background:none;
+    width:500px;
+    height:300px;
+    position: absolute;
+    top:350px;left:80px;
+}
+#news .content .left>img{
+    position: absolute;
+    top:-30px;left:420px;
+}
+#news .content .right{
+    background:none;
+    width:500px;
+    height:300px;
+    position: absolute;
+    top:720px;left:450px;
+}
+#news .content .right>img{
+    position: absolute;
+    top:-20px;left:-410px;
+}
+#news .content img:hover{
+    transform:rotate(360deg) scale(1.2,1.2);
+}
+#news .content .left img{transition: all 1s;}
+#news .content .right img{transition: all 1s;}
+
+#news .content .top ul{list-style: square;}
+#news .content .left ul{list-style: square;}
+#news .content .right ul{list-style: square;}
+#news .content h1{
+    font:bold 36px 'Microsoft YaHei';
+}
+#news .content ul li a{
+    color:#3c200b;
+    font-size: 24px;
+}
+#news .content ul li a:hover{
+    color:#219161;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,78 @@
+/*-------------------banner-----------------------*/
+#banner{
+    margin-top:20px;
+}
+
+/*------------------content-------------------------*/
+#container #content{
+    background: none;
+    width:940px;
+    height: 1430px;
+    /*border:1px solid red;*/
+}
+#content ul{
+    list-style: outside none none;
+    margin:0;padding:0;
+    /*margin-top:40px;*/
+    position: relative;
+}
+#content ul li {
+    /*background:#EFEFEF none repeat scroll 0 0;*/
+    /*box-shadow:0 8px 5px rgba(231,231,231,0.43) ;*/
+    float: left;
+    margin:30px;
+    cursor: pointer;
+    position: relative;
+    width: 400px;height:300px;
+    border-radius: 20px;
+}
+/*#content ul li a{overflow: hidden;}*/
+#content ul li img{
+    border-radius: 20px;
+    display: block;
+    /*position: relative;*/
+    width:100%;
+}
+#content ul li  div{
+    /*transform: transition;*/
+    background: rgba(255,255,255,0) none repeat scroll 0 0;
+    height:300px;width:400px;
+    display: block;
+    transition:all 0.5s ease-out 0s;
+    position: absolute;
+    top:0;left:0;
+    border-radius: 20px;
+}
+#content ul li div::after{
+    content:attr(data-des);
+    position:absolute;
+    top:130px;
+    left: 100px;
+    height:300px;
+    width:400px;
+    z-index: 99;
+    color:rgba(0,0,0,0);
+    transition: all 1s;
+    font-size: 24px;
+}
+#content ul li:hover div{
+    background-color: rgba(0,0,0,0.9);
+}
+#content ul li:hover div::after{color:rgba(255,255,255,1)}
+#content ul li a div span{
+    color:rgba(255,255,255,0.9);
+    display:block;
+    font-family: 'Raleway-Regular';
+    font-size: 14px;
+    margin:11px 20px 20px;
+    padding:10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+#content ul li a div h4{
+    color:#fff;
+    font-family: "Audiowide-Regular";
+    font-size: 18px;
+    margin:20px 0 0;
+    text-align: center;
+}

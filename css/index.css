@@ -1,0 +1,123 @@
+/*------------------banner--------------------*/
+#container div#body div#banner{
+    margin-top:50px;
+    position: relative;
+    height:363px;
+}
+#banner img{
+    /*width:940px;*/
+    width:100%;
+    height:363px;
+    position:absolute;
+    left:0; top:0;
+}
+#banner #left{left:5%; }
+#banner #right{right:5%; }
+#container #banner div{
+    position:absolute;
+    width:15px; height:15px;
+    border-radius:50%;
+    background:#fff;
+    bottom:3%;
+    cursor:pointer;
+}
+#banner div img{
+    position:absolute;
+    top:-110px;
+    left:-65px;
+    display:none;
+    width:140px;
+    /*width:50%;*/
+    height:100px;
+}
+#banner div:hover img{ display:block; }
+#banner div.circle0{ left:20%;}
+#banner div.circle1{ left:40%;}
+#banner div.circle2{ left:60%;}
+#banner div.circle3{ left:80%;}
+.active{ background:#E37C34 !important;}
+#container div#body div#banner>span{
+    color: #fff;
+    opacity: 0.5;
+    /*display: block;*/
+    font-size: 46px;
+    position: absolute;
+    top: 130px;
+    text-shadow: 1px 5px #605012;
+    cursor: pointer;
+}
+
+
+
+
+/*-----------------内容部分---------------------*/
+#container div#body div#content{
+    /*width:940px;*/
+    height:446px;
+    width:100%;
+    margin-top:20px;
+    background: none;
+    background-color: #593a23;
+    position: relative;
+}
+#container div#body div#content>.left ul{
+    list-style:none;
+    float:left;
+    /*width:650px;*/
+    width:68%;
+}
+#container div#body div#content>.left ul li{
+    margin:5px 5px;
+    float:left;
+    border:2px solid #fff;
+    z-index: 0;
+    transform: translateZ(0);
+    position:relative;
+}
+#container #content>.left ul li a{
+    width:100%;
+    display: inline-block;
+}
+#container #content>.left ul li a::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    background:rgba(255,255,255,0.2);
+    transform:scaleY(0);
+    transform-origin: bottom;/*过渡方位*/
+}
+#container #content>.left ul li a:hover::before{
+    transition:transform 1s;
+    transform:scale(1,1);
+}
+/*#container #content>.left ul li a:hover{*/
+    /*text-decoration: none;*/
+/*}*/
+
+
+
+#container div#body div#content .right{
+    background: url(../images/background1.png) no-repeat;
+    height:370px;
+    width:28%;
+    /*width:249px;*/
+    float:left;
+    position: absolute;
+    top:3rem;right:3rem;
+    /*margin-top:40px;*/
+    /*margin-left:30px;*/
+    /*position:relative;*/
+}
+#container div#body div#content .right p{
+    font-size: 1.2rem;
+    color:#675c4b;
+    font-family: 'KaiTi';
+    position:absolute;
+    top:7rem;
+    left:3.2rem;
+
+}

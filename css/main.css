@@ -1,0 +1,138 @@
+body {
+    background: url(../images/bg-body.jpg) repeat center top;
+    color: #d5b084;
+    /*font-family: 'KaiTi';*/
+    /*font-family: 'ËÎÌו';*/
+    font-size: 15px;
+    margin: 0;
+    /*min-width: 940px;*/
+    padding: 0;
+}
+#container {
+    background: url(../images/bg-page.png) repeat;
+    margin: 0 auto;
+    /*padding: 10px;*/
+    width: 940px;
+}
+#container div {
+    background: #f5f1e6 url(../images/bg-logo.jpg) no-repeat;
+    padding: 0;
+    width:100%;
+    /*width: 940px;*/
+}
+
+
+
+/*--------------------header----------------------*/
+#container div div#header {
+    background: none;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+#container div div#header img {
+    float: left;
+    margin: 30px 0 0 32px;
+}
+#container div div#header ul {
+    float: right;
+    list-style: none;
+    margin:77px 20px 0 0;
+    overflow: hidden;
+    padding: 0;
+    /*width: 550px;*/
+}
+#container div div#header ul li {
+    float: left;
+    padding: 0 15px;
+}
+#container div div#header ul li a {
+    color: #db9e29;
+    display: block;
+    font-size: 22px;
+    font-family: 'KaiTi';
+    text-decoration: none;
+}
+#container div div#header ul li dl dd a {
+    display: none;
+    opacity: 0.7;
+    background-color:#db9e29;
+    color:white;
+}
+#container div div#header ul li.current a,
+#container div div#header ul li a:hover {
+    border-bottom: 5px solid #a2b83c;
+}
+#container div div#header ul li .erji_ul{
+    width: 120px;
+    /*width:13%;*/
+    display: none;
+    margin-left: -10px;
+    top:37px;
+    position: absolute;
+}
+#container div div#header ul li .erji_ul li{
+    background-color:#db9e29 ;
+    height: 32px;
+    width:110px ;
+    border:1px solid white;
+}
+#container div div#header ul li .erji_ul li a{color: white;}
+#container div div#header ul li .erji_ul li a:hover{ color:black;  }
+#container div div#header ul li:hover .erji_ul{display: block;}
+
+#container div div#header ul li .erji_ult{
+    width: 120px;
+    display: none;
+    margin-left: -10px;
+    top:37px;
+    position: absolute;
+}
+#container div div#header ul li .erji_ult li{
+    background-color: #db9e29;
+    height: 32px;
+    width:130px ;
+    border:1px solid white;
+
+}
+#container div div#header ul li .erji_ult li a{color: white;}
+#container div div#header ul li .erji_ult li a:hover{color:black;}
+#container div div#header ul li:hover .erji_ult{display: block;}
+
+
+#container{
+    background: url(../images/separator-long.png) no-repeat bottom center;
+    padding: 0 0 10px;
+}
+
+
+/*-----------------footer------------------*/
+#footer{
+    height:160px;
+    background-color: #dfdfe6;
+    font-family: 'ËÎÌו';
+    position:relative;
+}
+#footer .foot-1 ul{list-style:none;}
+#footer .foot-1 ul li{
+    float:left;
+    /*border:1px solid white;*/
+    /*margin:20px 90px;*/
+    color:#6a6a6e;
+    margin-left:180px;
+    margin-top:30px;
+}
+#footer .foot-1 ul li h3{
+    font-size: 15px;
+}
+#footer .foot-1 ul li a{color:#6a6a6e;}
+#footer .foot-1 ul li a:hover{color:#A00000;text-decoration: underline;}
+#footer .foot-1 ul li p{
+    margin:6px 3px;
+    font-size: 13px;
+}
+#footer .foot-2>p{
+    position:absolute;
+    top:130px;left:220px;
+    color:#6a6a6e;
+}

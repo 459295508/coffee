@@ -1,0 +1,107 @@
+/*--------------------body--------------------*/
+#container div div#body {
+    background: url(../images/separator-long.png) no-repeat bottom center;
+    padding: 0 0 10px;position:relative;
+}
+#figure{
+    margin-top:18px;
+    background: none;
+}
+#figure img{
+    background: none;
+    /*margin-top:20px;*/
+}
+#figure span{
+    font-size:44px;
+    position:absolute;
+    top:140px;left:220px;
+    text-shadow:0 0 5px #ccc;
+}
+#body #contract{
+    width:940px;
+    height:760px;
+    position: relative;
+    color:#954121;
+    background: none;
+    font-size: 20px;
+}
+#body #contract .link div{
+    background: none;
+    float:right;
+    width:500px;
+    /*border:1px solid red;*/
+    position: absolute;
+    top:30px;left:240px;
+    box-shadow:0 0 40px #E37C34;
+}
+#contract .link input#submit{
+    margin-left:300px;
+    background: #E37C34;
+    color:#fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#contract .link h1{
+    font-size: 44px;
+    padding:10px 30px;
+}
+#contract .link label{
+    display:block;
+    padding:5px 20px;
+    /*text-align: left;*/
+}
+#contract .link label span{
+    width:300px;
+    text-align: right;
+}
+#contract .link label input{
+    width:260px;
+    height:35px;
+}
+/*-----------------join----------------------------*/
+#body #join{
+    background: none;
+    padding:20px 0;
+}
+#join .logo img{
+    margin-left:80px;
+    margin-top:30px;
+}
+#body #join h2{
+    font-size: 44px;
+    color:#000;
+    position: absolute;
+    top:380px;left:450px;
+}
+#body #join p{
+    font-size: 1.1rem;
+    color:#E37C34;
+    text-indent: 2em;
+    padding:0 20px;
+}
+#body #join h3{
+    font-size: 1.2rem;
+    color:#954121;
+    margin-left:20px;
+}
+
+
+/*----------------map-----------------------------*/
+/*#about-map{*/
+    /*width:50%;*/
+    /*height:200px;*/
+/*}*/
+/*#about-map .info-title {*/
+    /*background-color: rgba(0, 155, 255, 0.8);*/
+    /*color: white;*/
+    /*font-size: 14px;*/
+    /*font-weight: lighter;*/
+    /*letter-spacing: 1px;*/
+    /*line-height: 26px;*/
+    /*padding: 0 0 0 6px;*/
+/*}*/
+/*#about-map .info-content {*/
+    /*color: #666666;*/
+    /*line-height: 23px;*/
+    /*padding: 4px;*/
+/*}*/
